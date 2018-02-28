@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {ReactiveFormsModule, FormsModule} from '@angular/forms';
+
 
 //hammerjs
 import  'hammerjs'
@@ -14,6 +16,18 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 //Input
 import {MatInputModule} from '@angular/material/input';
 
+//Menu 
+import {MatMenuModule} from '@angular/material/menu';
+
+//toolbar
+import {MatToolbarModule} from '@angular/material/toolbar';
+
+//icon
+import {MatIconModule} from '@angular/material/icon';
+
+// stepper
+import {MatStepperModule} from '@angular/material/stepper';
+
 import { AppComponent } from './app.component';
 
 
@@ -23,8 +37,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule, 
+     FormsModule, ReactiveFormsModule,
     MatButtonModule, MatCheckboxModule,BrowserAnimationsModule,
-    MatSidenavModule, MatInputModule
+    MatSidenavModule, MatInputModule, MatMenuModule, MatToolbarModule,
+    MatIconModule, MatStepperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
