@@ -31,6 +31,12 @@ import {MatStepperModule} from '@angular/material/stepper';
 //progress-bar
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 
+//tooltip
+import {MatTooltipModule} from '@angular/material/tooltip';
+
+//select
+import {MatSelectModule} from '@angular/material/select';
+
 import { AppComponent } from './app.component';
 
 
@@ -43,7 +49,8 @@ import { AppComponent } from './app.component';
      FormsModule, ReactiveFormsModule,
     MatButtonModule, MatCheckboxModule,BrowserAnimationsModule,
     MatSidenavModule, MatInputModule, MatMenuModule, MatToolbarModule,
-    MatIconModule, MatStepperModule, MatProgressBarModule
+    MatIconModule, MatStepperModule, MatProgressBarModule, MatTooltipModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
