@@ -14,6 +14,7 @@ isLinear = false;
   secondFormGroup: FormGroup;
 
   partnerAgreementFG: FormGroup;
+  placeHolderFG: FormGroup;
 
 
   //values init 
@@ -46,6 +47,11 @@ isLinear = false;
     });
 
     this.partnerAgreementFG = this._formBuilder.group({
+       
+    });
+
+
+    this.placeHolderFG = this._formBuilder.group({
        
     });
 
